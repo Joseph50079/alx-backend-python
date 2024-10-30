@@ -2,8 +2,12 @@
 
 """Module sum list"""
 
+import typing
 
-def sum_list(input_list: list[float]) -> float:
+
+INPUT = typing.List[float]
+
+def sum_list(input_list: INPUT) -> float:
     """returns sum of the list as float"""
 
     i = sum(input_list)
